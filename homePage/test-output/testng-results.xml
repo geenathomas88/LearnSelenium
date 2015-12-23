@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8321" started-at="2015-12-23T02:30:37Z" finished-at="2015-12-23T02:30:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8321" started-at="2015-12-23T02:30:37Z" finished-at="2015-12-23T02:30:45Z">
+      <class name="com.inputs.training.Javascript">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.inputs.training.Javascript@6bdf28bb]" name="setUp" is-config="true" duration-ms="8221" started-at="2015-12-22T18:30:37Z" finished-at="2015-12-22T18:30:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestJavascript()[pri:0, instance:com.inputs.training.Javascript@6bdf28bb]" name="TestJavascript" duration-ms="87" started-at="2015-12-22T18:30:45Z" finished-at="2015-12-22T18:30:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestJavascript -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.inputs.training.Javascript@6bdf28bb]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-12-22T18:30:45Z" finished-at="2015-12-22T18:30:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inputs.training.Javascript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

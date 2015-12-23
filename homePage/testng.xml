@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test name="TestSalesforceHome">
+  	<classes>
+  		<class name="com.salesforce.home.SalesforceLogin"></class> 
+  		<!-- <class name="com.jobserve.home.SelectIndustry"></class>
+  		<class name="com.espncricinfo.www.TestTotalScore"></class> -->
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
