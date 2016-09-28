@@ -33,8 +33,8 @@ public class ChangeProfilePic {
 	
 	@Test
 	public void TestProfilePicChange(){
-		driver.findElement(By.id("email")).sendKeys("geenathms@yahoo.com");
-		driver.findElement(By.id("pass")).sendKeys("bibin@1984");
+		driver.findElement(By.id("email")).sendKeys("");
+		driver.findElement(By.id("pass")).sendKeys("");
 		driver.findElement(By.id("loginbutton")).click();
 		
 		driver.findElement(By.xpath("//*[@id='userNav']/ul/li[1]/a/div/span")).click();		//goto profile				
