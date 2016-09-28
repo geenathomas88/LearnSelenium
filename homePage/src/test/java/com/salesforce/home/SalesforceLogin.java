@@ -34,8 +34,8 @@ public class SalesforceLogin {
 	
 	@Test
 	public void testLogin() throws InterruptedException{
-		driver.findElement(By.id("username")).sendKeys("itstough@gmail.com");
-		driver.findElement(By.id("password")).sendKeys("andrea@2k13");
+		driver.findElement(By.id("username")).sendKeys("");
+		driver.findElement(By.id("password")).sendKeys("");
 		driver.findElement(By.id("Login")).click();	
 		
 		WebDriverWait wait = new WebDriverWait(driver, 20);
